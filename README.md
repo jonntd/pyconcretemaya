@@ -35,35 +35,34 @@ Visual Studio 2010 (VS10): SET VS90COMNTOOLS=%VS100COMNTOOLS%
 Visual Studio 2012 (VS11): SET VS90COMNTOOLS=%VS110COMNTOOLS%
 Visual Studio 2013 (VS12): SET VS90COMNTOOLS=%VS120COMNTOOLS%
 Visual Studio 2015 (VS14): SET VS90COMNTOOLS=%VS140COMNTOOLS%
-
-
 set VS90COMNTOOLS=%VS140COMNTOOLS%
+
+
+
+# Maya2023
 set PYCONCRETE_PASSPHRASE='1111"
-"C:\Program Files\Autodesk\Maya2022\bin\mayapy.exe" setup.py build 
+set EXTRA_INCLUDE_DIRS=C:/Program Files/Autodesk/Maya2023/include/Python39/Python
+set EXTRA_LIBRARIES=C:/Program Files/Autodesk/Maya2023/lib
+"C:\Program Files\Autodesk\Maya2023\bin\mayapy.exe" setup.py build 
 
-
-
-
-
-set VS90COMNTOOLS=%VS140COMNTOOLS%
+# Maya2022 py2
 set PYCONCRETE_PASSPHRASE='1111"
 set EXTRA_INCLUDE_DIRS=C:/Program Files/Autodesk/Maya2022/include/Python27/Python
 set EXTRA_LIBRARIES=C:/Program Files/Autodesk/Maya2022/lib
 "C:\Program Files\Autodesk\Maya2022\bin\mayapy2.exe" setup.py build 
 
-
-set VS90COMNTOOLS=%VS140COMNTOOLS%
+# Maya2022 py3
 set PYCONCRETE_PASSPHRASE='1111"
 set EXTRA_INCLUDE_DIRS=C:/Program Files/Autodesk/Maya2022/include/Python37/Python
 set EXTRA_LIBRARIES=C:/Program Files/Autodesk/Maya2022/lib
 "C:\Program Files\Autodesk\Maya2022\bin\mayapy.exe" setup.py build 
 
-
-set VS90COMNTOOLS=%VS100COMNTOOLS%
+# Maya2019 py2
 set PYCONCRETE_PASSPHRASE='1111"
 set EXTRA_INCLUDE_DIRS=C:/Program Files/Autodesk/Maya2019/include/python2.7
 set EXTRA_LIBRARIES=C:/Program Files/Autodesk/Maya2019/lib
 "C:\Program Files\Autodesk\Maya2019\bin\mayapy.exe" setup.py build 
+
 
 
 
