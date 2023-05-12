@@ -1,4 +1,0 @@
-D:/program/pyconcrete-0.15.1/src/solutions/VS2019_Maya2019_x64/CMakeFiles/aaa.dir
-D:/program/pyconcrete-0.15.1/src/solutions/VS2019_Maya2019_x64/CMakeFiles/INSTALL.dir
-D:/program/pyconcrete-0.15.1/src/solutions/VS2019_Maya2019_x64/CMakeFiles/ALL_BUILD.dir
-D:/program/pyconcrete-0.15.1/src/solutions/VS2019_Maya2019_x64/CMakeFiles/ZERO_CHECK.dir
