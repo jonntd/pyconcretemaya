@@ -4,7 +4,6 @@
 *.so
 .idea/*
 .vscode/*
-build/*
 dist/*
 vagrant/.vagrant/*
 venv/*
