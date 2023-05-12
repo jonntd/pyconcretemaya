@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\program\pyconcrete-0.15.1\src\solutions\VS2019_Maya2019_x64\CMakeFiles\9306af2732fcde77fdc0bee8c19f1725\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8E91F726-56FF-396E-9A69-D1D9894B139D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

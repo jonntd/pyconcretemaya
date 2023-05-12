@@ -1,0 +1,10 @@
+^D:\PROGRAM\PYCONCRETE-0.15.1\SRC\SOLUTIONS\VS2019_MAYA2019_X64\CMAKEFILES\9306AF2732FCDE77FDC0BEE8C19F1725\GENERATE.STAMP.RULE
+setlocal
+D:\Desktop\jonnlib\script\Maya\ranix\tools\cmake\cmake-3.22.0-rc2-windows-x86_64\bin\cmake.exe -SD:/Desktop/jonnlib/script/Maya/ranix/lcTool/make -BD:/program/pyconcrete-0.15.1/src/solutions/VS2019_Maya2019_x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/program/pyconcrete-0.15.1/src/solutions/VS2019_Maya2019_x64/aaa.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
