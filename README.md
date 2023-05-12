@@ -1,6 +1,6 @@
 pyconcrete maya
 ==============
-
+source https://github.com/Falldog/pyconcrete
 Protect your python script, encrypt .pyc to .pye and decrypt when import it
 
 --------------
